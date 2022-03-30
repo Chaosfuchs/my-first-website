@@ -3,3 +3,9 @@
 - Rollenspiel-App
 - Charactersheets anlegbar
 - Würfel integrieren
+
+### more ideas
+
+- Fähigkeiten eintragbar
+- Eigenschaften eintragbar zB. Feuerelement, etc.
+- Bilder einfügbar
