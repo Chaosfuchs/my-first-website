@@ -7,61 +7,74 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   </head>
   <body>
-    <div id="top"></div>
     <header>
       <h1>Kerstin Ohlmann</h1>
       <nav><a href="#contact">Contact</a> <a href="#bio">Biographie</a></nav>
     </header>
     <main>
-      <img
-        src="images/iguana.webp"
-        width="400px"
-        alt="IguanaPicture"
-        id="pic"
-      />
-      <label for="pic">This is probably not me, it's a testpicture.</label>
-      <fieldset>
-        This is a place for my interests
-        <tag>Music</tag>
-        <tag>Art</tag>
-        <tag>Gaming</tag>
-      </fieldset>
-      <fieldset>
-        This is a place for my characteristics
-        <tag>A</tag>
-        <tag>B</tag>
-        <tag>C</tag>
-      </fieldset>
-      <fieldset>
-        <p>Number:</p>
-        <number>0176 xxxxxxx</number>
-        <p>E-Mail:</p>
-        <adress>abc@blalala.de</adress>
-      </fieldset>
-      <a href="https://github.com/Chaosfuchs"
-        ><img src="images/github.webp" width="200px" alt="GithubLogo"
-      /></a>
-      <label>Go to my Github Profile</label>
-      <a href="#"><img src="images/instagram.jpeg" width="200px" /></a>
-      <label>Go to my Instagram Profile</label>
-      <h2>About me</h2>
-      <p>Blabliblubb</p>
-      <h2>My Curriculum Vitae</h2>
-      <table>
-        <tr>
-          <th>Year</th>
-          <th>Station</th>
-        </tr>
-        <tr>
-          <td>2008</td>
-          <td>Abitur</td>
-        </tr>
-      </table>
+      <div>
+        <img
+          src="images/iguana.webp"
+          width="400px"
+          alt="IguanaPicture"
+          id="pic"
+        />
+        <label for="pic">This is probably not me, it's a testpicture.</label>
+      </div>
+      <div>
+        <fieldset>
+          <p><b>This is a place for my interests</b></p>
+          <p>Music</p>
+          <p>Art</p>
+          <p>Gaming</p>
+          <p><b>This is a place for my characteristics</b></p>
+          <p>A</p>
+          <p>B</p>
+          <p>C</p>
+        </fieldset>
+      </div>
+      <div>
+        <fieldset id="contact">
+          <p>Number:</p>
+          <number>0176 xxxxxxx</number>
+          <p>E-Mail:</p>
+          <adress>abc@blalala.de</adress>
+        </fieldset>
+      </div>
+      <div>
+        <a href="https://github.com/Chaosfuchs"
+          ><img src="images/github.webp" width="200px" alt="GithubLogo"
+        /></a>
+        <p>Go to my Github Profile</p>
+        <a href="https://www.instagram.com/"
+          ><img src="images/instagram.jpeg" width="200px"
+        /></a>
+        <p>Go to my Instagram Profile</p>
+      </div>
+      <hr />
+      <div>
+        <h2>About me</h2>
+        <p>Blabliblubb</p>
+      </div>
+      <hr />
+      <div id="bio">
+        <h2>My Curriculum Vitae</h2>
+        <table>
+          <tr>
+            <th>Year</th>
+            <th>Station</th>
+          </tr>
+          <tr>
+            <td>2008</td>
+            <td>Abitur</td>
+          </tr>
+        </table>
+      </div>
     </main>
     <footer>
       <nav>
-        <a href="#">Back to top</a> <a href="#">Contact</a
-        ><a href="#">Biographie</a>
+        <a href="#">Back to top</a> <a href="#contact">Contact</a>
+        <a href="#bio">Biographie</a>
         <br />
         <br />
       </nav>
