@@ -5,23 +5,27 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
     <header>
       <h1>Kerstin Ohlmann</h1>
-      <nav><a href="#contact">Contact</a> <a href="#bio">Biographie</a></nav>
+      <nav>
+        <a class="cont" href="#contact">Contact</a>
+        <a class="biog" href="#bio">Biographie</a>
+      </nav>
     </header>
     <main>
       <div>
         <img
           src="images/iguana.webp"
-          width="400px"
+          width="200px"
           alt="IguanaPicture"
           id="pic"
         />
-        <label for="pic"
-          >This is probably not me, but it's a testpicture.</label
-        >
+        <aside for="pic">
+          This is probably not me, because it's a testpicture.
+        </aside>
       </div>
       <hr />
       <div>
@@ -115,8 +119,9 @@
     <hr />
     <footer>
       <nav>
-        <a href="#">Back to top</a> <a href="#contact">Contact</a>
-        <a href="#bio">Biographie</a>
+        <a class="cont" href="#contact">Contact</a>
+        <a class="biog" href="#bio">Biographie</a>
+        <a class="back" href="#">Back to top</a>
         <br />
         <br />
       </nav>
