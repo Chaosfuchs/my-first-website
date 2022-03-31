@@ -7,7 +7,7 @@
 body {
   margin: "0px";
   padding: "0px";
-  background-color: lightcyan;
+  background-color: white;
   font-family: "Roboto", sans-serif;
 }
 
@@ -16,8 +16,9 @@ h1 {
   padding: 0px;
   text-decoration: underline;
 }
-.profile {
-  margin: 10px;
+
+p {
+  font-family: "Roboto", sans-serif;
 }
 
 nav {
@@ -35,36 +36,25 @@ nav a {
   font-style: italic;
 }
 
+.profile {
+  margin: 10px;
+}
+
 fieldset {
   background-color: bisque;
 }
 
 .links {
+  margin: 10px;
+  font-size: 10px;
   display: flex;
+  justify-content: center;
+  gap: 20px;
 }
 
-.link1 {
-  padding: 10px;
-  margin: 0px;
-  text-align: left;
-}
-
-.link1 p {
-  font-size: 10px;
-}
-
-.link2 {
-  padding: 10px;
-  margin: 0px;
-  text-align: right;
-}
-
-.link2 p {
-  font-size: 10px;
-}
-
-p {
-  font-family: "Roboto", sans-serif;
+table {
+  background-color: lightblue;
+  display: flex;
 }
 
 th {
@@ -88,10 +78,6 @@ footer {
   margin: 0px;
   padding: 0px;
   text-align: center;
-}
-
-table {
-  background-color: lightblue;
 }
 
 .cont {
