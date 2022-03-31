@@ -7,7 +7,7 @@
 body {
   margin: "0px";
   padding: "0px";
-  background-color: aqua;
+  background-color: lightcyan;
   font-family: "Roboto", sans-serif;
 }
 
@@ -15,16 +15,52 @@ h1 {
   margin: 0px;
   padding: 0px;
   text-decoration: underline;
-  text-align: center;
+}
+.profile {
+  margin: 10px;
 }
 
 nav {
-  margin: 0px;
-  padding: 10px;
+  margin: 10px;
+  padding: 10px 0px 10px 0px;
+  text-align: left;
+  border: 3px solid bisque;
+  border-radius: 10px;
+  background-color: bisque;
+  text-align: center;
+}
+
+nav a {
+  color: black;
+  font-style: italic;
 }
 
 fieldset {
   background-color: bisque;
+}
+
+.links {
+  display: flex;
+}
+
+.link1 {
+  padding: 10px;
+  margin: 0px;
+  text-align: left;
+}
+
+.link1 p {
+  font-size: 10px;
+}
+
+.link2 {
+  padding: 10px;
+  margin: 0px;
+  text-align: right;
+}
+
+.link2 p {
+  font-size: 10px;
 }
 
 p {
@@ -54,15 +90,22 @@ footer {
   text-align: center;
 }
 
+table {
+  background-color: lightblue;
+}
+
 .cont {
-  margin: 0px;
-  padding: 20px;
+  padding: 10px;
 }
 
 .biog {
-  padding: 20px;
+  padding: 10px;
+}
+
+.about {
+  padding: 10px;
 }
 
 .back {
-  padding: 45px;
+  padding: 0px;
 }
