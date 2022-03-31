@@ -7,7 +7,7 @@
 body {
   margin: "0px";
   padding: "0px";
-  background-color: white;
+  background-color: beige;
   font-family: "Roboto", sans-serif;
 }
 
@@ -15,10 +15,6 @@ h1 {
   margin: 0px;
   padding: 0px;
   text-decoration: underline;
-}
-
-p {
-  font-family: "Roboto", sans-serif;
 }
 
 nav {
@@ -29,6 +25,7 @@ nav {
   border-radius: 10px;
   background-color: bisque;
   text-align: center;
+  box-shadow: 10px 5px 5px grey;
 }
 
 nav a {
@@ -38,10 +35,14 @@ nav a {
 
 .profile {
   margin: 10px;
+  box-shadow: 10px 5px 5px grey;
+  background-color: lightblue;
+  text-align: center;
 }
 
 fieldset {
-  background-color: bisque;
+  background-color: lightblue;
+  box-shadow: 10px 5px 5px grey;
 }
 
 .links {
@@ -52,9 +53,15 @@ fieldset {
   gap: 20px;
 }
 
-table {
+.me {
+  box-shadow: 10px 5px 5px grey;
+  background-color: lightblue;
+}
+
+.bio {
   background-color: lightblue;
   display: flex;
+  box-shadow: 10px 5px 5px grey;
 }
 
 th {
