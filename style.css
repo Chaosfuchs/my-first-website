@@ -7,9 +7,10 @@
 body {
   margin: auto;
   padding: auto;
-  background-color: #c1d3fe;
+  /*background-color: #c1d3fe; */
   color: white;
   font-family: "Send Flowsers", cursive;
+  background-image: linear-gradient(to bottom, #e0c3fc, #5a189a);
 }
 
 nav {
