@@ -60,7 +60,6 @@ fieldset {
 
 .bio {
   background-color: lightblue;
-  display: flex;
   box-shadow: 10px 5px 5px grey;
 }
 
