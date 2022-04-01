@@ -7,24 +7,34 @@
 body {
   margin: auto;
   padding: auto;
-  background-color: #8f00ff;
+  background-color: #c1d3fe;
   color: white;
   font-family: "Send Flowsers", cursive;
 }
 
 nav {
-  background-color: #adff02;
+  background-color: #000814;
   margin: 0px;
   padding: 5px;
   display: flex;
   justify-content: space-around;
-  box-shadow: 5px 5px 5px #312244;
+
   font-size: 30px;
   font-family: "Lavishly Yours", cursive;
 }
 
+h1 {
+  margin: 5px 0px 0px 0px;
+  font-family: "Pasifico", cursive;
+  font-size: 80px;
+  color: #0fd7ff;
+  text-shadow: 4px 4px 4px blue;
+  display: flex;
+  justify-content: center;
+}
+
 .profile {
-  background-color: #012a4a;
+  background-color: #277da1;
   border: 20px solid #01497c;
   border-bottom-color: #01497c;
   border-left-color: #013a63;
@@ -39,16 +49,6 @@ nav {
 
 .first-section {
   margin: 20px;
-  display: flex;
-  justify-content: center;
-}
-
-h1 {
-  margin: 5px 0px 0px 0px;
-  font-family: "Pasifico", cursive;
-  font-size: 65px;
-  color: #0fd7ff;
-  text-shadow: 4px 4px 4px blue;
   display: flex;
   justify-content: center;
 }
@@ -78,16 +78,16 @@ h1 {
 }
 
 .cards h4 {
-  font-size: 30px;
+  font-size: 20px;
   text-decoration: underline;
 }
 
 .contact {
-  margin: 70px;
-  padding: 10px;
+  margin: 5px;
+  padding: 5px;
   display: flex;
   flex-direction: column;
-  align-items: ;
+  max-width: 600px;
   background-color: #012a4a;
   border-radius: 5%;
   font-family: "Send Flowsers", cursive;
@@ -126,43 +126,74 @@ h1 {
   margin: 0px;
   padding: 10px;
   display: flex;
-  background-color: aquamarine;
+  background-color: #277da1;
   border-radius: 10%;
+  box-shadow: 10px 10px 5px #312244;
 }
 
 .github-link a {
+  display: flex;
+  flex-direction: row;
   color: black;
+  font-size: 10px;
+}
+
+.github-link-text {
+  padding: 3px;
+  display: flex;
+  flex-direction: column;
 }
 
 .instagram-link {
   margin: 0px;
   padding: 10px;
   display: flex;
-  background-color: aquamarine;
+  background-color: #277da1;
   border-radius: 10%;
+  box-shadow: 10px 10px 5px #312244;
 }
 
 .instagram-link a {
+  display: flex;
+  flex-direction: row;
   color: black;
+  font-size: 10px;
+}
+
+.instagram-link-text {
+  padding: 3px;
+  display: flex;
+  flex-direction: column;
 }
 
 .xing-link {
   margin: 0px;
   padding: 10px;
   display: flex;
-  background-color: aquamarine;
+  background-color: #277da1;
   border-radius: 10%;
+  box-shadow: 10px 10px 5px #312244;
 }
 
-.xing-ink a {
+.xing-link a {
+  display: flex;
+  flex-direction: row;
   color: black;
+  font-size: 10px;
+}
+
+.xing-link-text {
+  padding: 3px;
+  display: flex;
+  flex-direction: column;
 }
 
 .me {
-  margin: 30px;
+  margin: 15px;
   padding: 30px;
   background-color: #012a4a;
   border-radius: 5%;
+  box-shadow: 10px 10px 5px #312244;
 }
 
 .me h2 {
@@ -172,10 +203,11 @@ h1 {
 }
 
 .bio {
-  margin: 30px;
+  margin: 15px;
   padding: 30px;
   background-color: #012a4a;
   border-radius: 5%;
+  box-shadow: 10px 10px 5px #312244;
 }
 
 .bio h2 {
