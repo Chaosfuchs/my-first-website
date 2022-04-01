@@ -1,72 +1,102 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>My Website</title>
+    <title>Hello thats me!</title>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Fonts, Send Flowers, Lavishly Yours, Pacifico -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lavishly+Yours&family=Pacifico&family=Send+Flowers&display=swap"
+      rel="stylesheet"
+    />
+    <!-- CSS Sheets -->
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
     <header>
-      <h1>Kerstin Ohlmann</h1>
       <nav>
-        <a class="cont" href="#contact">Contact</a>
-        <a class="biog" href="#bio">Biographie</a>
-        <a class="about" href="#aboutme">About me</a>
+        <a class="cont" href="#contactMe">Contact</a>
+        <a class="about" href="#aboutMe">About me</a>
+        <a class="biog" href="#biographie">Biographie</a>
       </nav>
+      <h1>Kerstin Ohlmann</h1>
     </header>
     <main>
-      <div class="profile">
-        <img src="images/sunset.webp" width="370px" alt="sunset" id="pic" />
-        <aside for="pic">
-          This is probably not me, because it's a testpicture.
-        </aside>
-      </div>
+      <section class="first-section">
+        <figure class="profile">
+          <img
+            src="images/IMG_20211117_185052.jpg"
+            width="150px"
+            alt="sunset"
+            id="pic"
+          />
+          <figcaption>Hello, thats me!</figcaption>
+        </figure>
+        <div class="cards">
+          <div class="interest-card">
+            <h4>My interests</h4>
+            <div class="interests">
+              <p>Music</p>
+              <p>Art</p>
+              <p>Gaming</p>
+              <p>Bowling</p>
+            </div>
+          </div>
+          <div class="character-card">
+            <h4>A few of my Characteristics</h4>
+            <div class="character">
+              <p>Very empathic</p>
+              <p>Dedicated</p>
+              <p>Teamplayer</p>
+              <p>Tolerant</p>
+            </div>
+          </div>
+        </div>
+      </section>
       <hr />
-      <div>
-        <fieldset>
-          <legend><b>This is me</b></legend>
-          <h4>My interests</h4>
-          <ul>
-            <li>Music</li>
-            <li>Art</li>
-            <li>Gaming</li>
-            <li>Bowling</li>
-          </ul>
-          <h4>A few of my Characteristics</h4>
-          <ul>
-            <li>Very empathic</li>
-            <li>Dedicated</li>
-            <li>Teamplayer</li>
-            <li>Tolerant</li>
-          </ul>
-        </fieldset>
-      </div>
-      <div>
-        <fieldset id="contact">
-          <legend><b>Contact</b></legend>
-          <p>Mobile-Number: 0176 123 456 789</p>
-          <p>E-Mail: wildcat@lalala.de</p>
-        </fieldset>
+      <div id="contactMe"></div>
+      <div class="contact">
+        <h2>Contact</h2>
+        <p>Mobile-Number: 0176 123 456 789</p>
+        <p>E-Mail: wildcat@lalala.de</p>
       </div>
       <div class="links">
-        <a href="https://github.com/Chaosfuchs"
-          ><img src="images/github.webp" width="100px" alt="GithubLogo" />
-          <p>Go to my Github Profile</p></a
-        >
-        <a href="https://www.instagram.com/"
-          ><img src="images/instagram.jpeg" width="100px" />
-          <p>Go to my Instagram Profile</p></a
-        >
-        <a href="https://www.xing.com/"
-          ><img src="images/XING.png" width="100px" />
-          <p>Go to my Xing Profile</p></a
-        >
+        <div class="github-link">
+          <a href="https://github.com/Chaosfuchs"
+            ><img src="images/github2.png" width="100px" alt="GithubLogo" />
+            <h3>Github</h3>
+            <p>Follow me to learn about my thoughts.</p>
+            <p>@myaccount</p></a
+          >
+        </div>
+        <div class="instagram-link">
+          <a href="https://www.instagram.com/"
+            ><img
+              src="images/insta_logo.png"
+              width="100px"
+              alt="InstagramLogo"
+            />
+            <h3>Instagram</h3>
+            <p>Follow me to learn about my thoughts.</p>
+            <p>@myaccount</p></a
+          >
+        </div>
+        <div class="xing-link">
+          <a href="https://www.xing.com/"
+            ><img src="images/xing_logo.png" width="100px" alt="XingLogo" />
+            <h3>Xing</h3>
+            <p>Follow me to learn about my thoughts.</p>
+            <p>@myaccount</p></a
+          >
+        </div>
       </div>
       <hr />
+      <div id="aboutMe"></div>
       <div class="me">
-        <h2 id="aboutme">About me</h2>
+        <h2>About me</h2>
         <p>
           I'm 26 years old and come from Bad Herrenalb, Baden-Württemberg My
           personality is characterized by the fact that I am very inquisitive
@@ -78,51 +108,30 @@
         </p>
       </div>
       <hr />
+      <div id="biographie"></div>
       <div class="bio">
         <h2>My Curriculum Vitae</h2>
-        <table>
-          <tr>
-            <th>Year</th>
-            <th>Station</th>
-          </tr>
-          <tr>
-            <td>2002 - 2006</td>
-            <td>Elementary School</td>
-          </tr>
-          <tr>
-            <td>2006 - 2012</td>
-            <td>Junior High School</td>
-          </tr>
-          <tr>
-            <td>2012 - 2016</td>
-            <td>
-              Much tried and tried around what suits me (Internships, Minijobs,
-              etc.)
-            </td>
-          </tr>
-          <tr>
-            <td>2016 - 2019</td>
-            <td>Apprenticeship as businesswoman for office management</td>
-          </tr>
-          <tr>
-            <td>2020 - now</td>
-            <td>
-              Job and part-time continuing education web development, now
-              bootcamp at "neue Fische" in full time
-            </td>
-          </tr>
-        </table>
+        <p>2002 - 2006 - Elementary School</p>
+        <p>2006 - 2012 - Junior High School</p>
+        <p>
+          2012 - 2016 - Much tried and tried around what suits me (Internships,
+          Minijobs, etc.)
+        </p>
+        <p>
+          2016 - 2019 - Apprenticeship as businesswoman for office management
+        </p>
+        <p>
+          2020 - now - Job and part-time continuing education web development,
+          now bootcamp at "neue Fische" in full time
+        </p>
       </div>
     </main>
-    <hr />
     <footer>
       <nav>
-        <a class="cont" href="#contact">Contact</a>
-        <a class="biog" href="#bio">Biographie</a>
-        <a class="about" href="#aboutme">About me</a>
+        <a class="cont" href="#contactMe">Contact</a>
+        <a class="about" href="#aboutMe">About me</a>
+        <a class="biog" href="#biographie">Biographie</a>
         <a class="back" href="#">Back to top</a>
-        <br />
-        <br />
       </nav>
     </footer>
   </body>
