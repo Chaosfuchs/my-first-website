@@ -59,6 +59,10 @@ h1 {
   text-align: center;
 }
 
+section img {
+  max-width: 200px;
+}
+
 .head-section {
   margin: 20px;
   display: flex;
