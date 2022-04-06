@@ -1,0 +1,13 @@
+.profile {
+  background-color: #277da1;
+  border: 20px solid #01497c;
+  border-bottom-color: #01497c;
+  border-left-color: #013a63;
+  border-radius: 10px;
+  border-right-color: #013a63;
+  border-top-color: #01497c;
+  box-shadow: 10px 10px 5px #312244;
+  margin: 0px 50px 0px 0px;
+  padding: 5px;
+  text-align: center;
+}

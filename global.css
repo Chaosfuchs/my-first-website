@@ -1,0 +1,56 @@
+@import url(/design-system/generals/style.css);
+@import url(/design-system/titleH1/style.css);
+@import url(/design-system/profile/style.css);
+@import url(/design-system/navbar/style.css);
+@import url(/design-system/headsection/style.css);
+@import url(/design-system/cards/style.css);
+@import url(/design-system/contactsection/style.css);
+@import url(/design-system/socialsection/style.css);
+
+* {
+  box-sizing: border-box;
+  /* Developement 
+  outline: 2px solid red; */
+}
+
+body {
+  margin: auto;
+  padding: auto;
+  /*background-color: #c1d3fe; */
+  color: white;
+  font-family: "Send Flowsers", cursive;
+  background-image: linear-gradient(to bottom, #e0c3fc, #5a189a);
+}
+
+h1 {
+  margin: 10px 0px 0px 0px;
+  font-family: "Pasifico", cursive;
+  font-size: 80px;
+  color: #0fd7ff;
+  text-shadow: 4px 4px 4px blue;
+  display: flex;
+  justify-content: center;
+}
+
+section img {
+  max-width: 200px;
+}
+
+nav {
+  background-color: #000814;
+  margin: 0px;
+  padding: 5px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  font-size: 30px;
+  font-family: "Lavishly Yours", cursive;
+}
+
+a:visited {
+  color: #0fd7ff;
+}
+
+a:hover {
+  color: darkorange;
+}

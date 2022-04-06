@@ -1,0 +1,29 @@
+.interest-card {
+  margin: 0px;
+  padding: 0px 15px 10px 20px;
+  background-color: #012a4a;
+  box-shadow: 10px 10px 5px #312244;
+  border-radius: 10px;
+}
+
+.character-card {
+  margin: 0px;
+  padding: 0px 20px 0px 20px;
+  background-color: #012a4a;
+  box-shadow: 10px 10px 5px #312244;
+  border-radius: 10px;
+}
+
+.cards {
+  margin: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 15px;
+  font-family: "Send Flowsers", cursive;
+}
+
+.cards h4 {
+  font-size: 20px;
+  text-decoration: underline;
+}

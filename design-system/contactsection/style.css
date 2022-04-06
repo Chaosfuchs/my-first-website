@@ -1,0 +1,28 @@
+.contact {
+  margin: 15px;
+  padding: 5px;
+  display: flex;
+  width: 400px;
+  flex-direction: column;
+  max-width: 600px;
+  background-color: #012a4a;
+  border-radius: 10px;
+  font-family: "Send Flowsers", cursive;
+  box-shadow: 10px 10px 5px #312244;
+}
+
+.contact-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.contact h2 {
+  margin: auto;
+  font-size: 30px;
+  text-decoration: underline;
+}
+
+.contact p {
+  display: flex;
+  justify-content: center;
+}
